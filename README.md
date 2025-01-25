@@ -2,7 +2,7 @@
 
 ### About Me
 
-- 🔭 I’m currently working on **[Twitter Automation Account, Robinhood Auto Trading Bot, Sports Statistics](#)**
+- 🔭 I’m currently working on **[Angular Tutorial](https://angular.dev/tutorials/first-app)**
 - 🌱 I’m learning **Python for personal projects and working with LLMs**
 - ⚡ Fun fact: **I started college at 25 with no prior programming experience, and I’m loving the journey in tech!**
 
