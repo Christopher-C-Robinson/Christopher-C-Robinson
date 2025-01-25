@@ -12,8 +12,8 @@
 
 ### Projects
 
-- **[Twitter Automation Account](#)**: A project to automate tweets and integrate LLMs for better engagement.
-- **[Robinhood Auto Trading Bot](#)**: An automated trading bot that leverages market data to make informed trades.
+- **Twitter Automation Account**: A project to automate tweets and integrate LLMs for better engagement.
+- **Robinhood Auto Trading Bot**: An automated trading bot that will automatically buy and sell $BTC on Robinhood for me.
 
 ### GitHub Stats
 
