@@ -46,7 +46,7 @@ I enjoy creating systems that save time, reduce friction, and let teams focus on
 
 ### 📊 GitHub Stats  
 
-![Christopher’s GitHub stats](https://github-readme-stats.vercel.app/api?username=Christopher-C-Robinson&show_icons=true&theme=radical&hide_border=true)
+![Christopher’s GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Christopher-C-Robinson)
 
 ---
 
