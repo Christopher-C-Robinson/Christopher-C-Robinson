@@ -28,14 +28,6 @@ I enjoy building systems that reduce friction and let teams ship with confidence
 ### WakaTime
 [![WakaTime Stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=domesticcadiz&theme=tokyonight&layout=compact)](https://github.com/Christopher-C-Robinson)
 
-### Featured Repositories
-<a href="https://github.com/Christopher-C-Robinson/Christopher-C-Robinson">
-  <img align="center" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Christopher-C-Robinson&repo=Christopher-C-Robinson&theme=tokyonight" alt="Pinned repo: Christopher-C-Robinson" />
-</a>
-<a href="https://github.com/Christopher-C-Robinson/MTG-Card-Twitter-Bot">
-  <img align="center" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Christopher-C-Robinson&repo=MTG-Card-Twitter-Bot&theme=tokyonight" alt="Pinned repo: MTG-Card-Twitter-Bot" />
-</a>
-
 ---
 
 ## 🚀 Projects
