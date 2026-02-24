@@ -26,7 +26,7 @@ I enjoy building systems that reduce friction and let teams ship with confidence
 [![GitHub Streak](https://github-readme-stats-fast.vercel.app/api/streak?username=Christopher-C-Robinson&theme=tokyonight)](https://github.com/Christopher-C-Robinson)
 
 ### WakaTime
-[![WakaTime Stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=Christopher-C-Robinson&theme=tokyonight&layout=compact)](https://github.com/Christopher-C-Robinson)
+[![WakaTime Stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=domesticcadiz&theme=tokyonight&layout=compact)](https://github.com/Christopher-C-Robinson)
 
 ### Featured Repositories
 <a href="https://github.com/Christopher-C-Robinson/Christopher-C-Robinson">
