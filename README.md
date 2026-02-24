@@ -12,24 +12,6 @@ I enjoy building systems that reduce friction and let teams ship with confidence
 
 ---
 
-## ⚙️ Tech Stack
-
-**Languages**
-
-![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-
-**Frameworks & Tools**
-
-![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat&logo=angular&logoColor=white)
-![TestCafe](https://img.shields.io/badge/-TestCafe-1572B6?style=flat&logo=testcafe&logoColor=white)
-![Azure DevOps](https://img.shields.io/badge/-Azure%20DevOps-0078D7?style=flat&logo=azure-devops&logoColor=white)
-![YAML](https://img.shields.io/badge/-YAML-000000?style=flat&logo=yaml&logoColor=white)
-
----
-
 ## 📊 GitHub Dashboard
 
 ### Stats + Top Languages
@@ -68,8 +50,8 @@ I enjoy building systems that reduce friction and let teams ship with confidence
   - Personal project that posts random legal Magic: The Gathering cards via Scryfall + Twitter APIs
   - Prevents duplicates until a full card cycle is completed
 
-- **PrizePicks Betting Automation (In Progress)**
-  - Building an automation flow that recommends and places bets while ingesting live player updates through LLM-powered evaluation
+- **Bingo Card Managing App (In Progress)**
+  - Building an app to help with the bottle neck of manually marking bingo cards.
 
 ---
 
