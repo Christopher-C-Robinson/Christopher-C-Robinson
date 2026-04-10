@@ -54,11 +54,11 @@ I enjoy building systems that reduce friction and let teams ship with confidence
 
 ---
 
-## 📄 Privacy Policy
+## 🌐 Website
 
-The public privacy policy for Bingo is available here:
-
-- [Bingo Privacy Policy](https://christopher-c-robinson.github.io/Christopher-C-Robinson/privacy-policy/)
+- [Home](https://christopher-c-robinson.github.io/Christopher-C-Robinson/)
+- [Projects](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/)
+- [Bingo Privacy Policy](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingo/privacy-policy/)
 
 ---
 

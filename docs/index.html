@@ -3,69 +3,150 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bingo Privacy Policy</title>
-  <style>
-    :root {
-      color-scheme: light;
-      --bg: #f4f1ea;
-      --panel: #ffffff;
-      --text: #1f2933;
-      --muted: #5f6b7a;
-      --accent: #0f766e;
-      --border: #d8e1e8;
-    }
-
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: linear-gradient(180deg, #ffffff 0%, var(--bg) 100%);
-      color: var(--text);
-    }
-
-    main {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 64px 24px;
-    }
-
-    .card {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: 32px;
-      box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
-    }
-
-    h1 {
-      margin: 0 0 12px;
-      font-size: clamp(2rem, 4vw, 3rem);
-      line-height: 1.05;
-    }
-
-    p {
-      margin: 0 0 16px;
-      color: var(--muted);
-      line-height: 1.6;
-    }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <title>Christopher Robinson</title>
+  <meta name="description" content="Christopher Robinson's personal site, project index, and public app documentation.">
+  <link rel="stylesheet" href="styles/site.css">
 </head>
 <body>
-  <main>
-    <section class="card">
-      <h1>Bingo Privacy Policy</h1>
-      <p>This site hosts the public privacy policy for the Bingo app.</p>
-      <p><a href="./privacy-policy/">Open the privacy policy</a></p>
+  <header class="topbar shell">
+    <div class="brand">
+      <a href="./">Christopher Robinson</a>
+      <p>Software quality engineer, automation builder, and app release tinkerer.</p>
+    </div>
+    <nav class="nav" aria-label="Primary">
+      <a href="./">Home</a>
+      <a href="projects/">Projects</a>
+      <a href="projects/bingo/">Bingo</a>
+      <a href="projects/bingo/privacy-policy/">Privacy Policy</a>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <div class="panel hero-main">
+        <span class="eyebrow">Personal site</span>
+        <h1>I build test automation, ship apps, and keep release work predictable.</h1>
+        <p class="hero-copy">
+          I work across QA automation, CI/CD, and iOS delivery. This site gives me one place to publish project pages,
+          public app policies, and a clean home for future work.
+        </p>
+        <div class="action-row">
+          <a class="button button-primary" href="projects/">View projects</a>
+          <a class="button button-secondary" href="projects/bingo/privacy-policy/">Bingo privacy policy</a>
+        </div>
+      </div>
+
+      <aside class="panel stat-card">
+        <div class="stats">
+          <div class="stat">
+            <strong>24h → 4-6h</strong>
+            <span>pipeline runtime reduction through slicing and parallelization</span>
+          </div>
+          <div class="stat">
+            <strong>TypeScript</strong>
+            <span>automation modernization and PR validation pipelines</span>
+          </div>
+          <div class="stat">
+            <strong>CI/CD</strong>
+            <span>release flow design, build hygiene, and TestFlight delivery</span>
+          </div>
+        </div>
+      </aside>
     </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <h2>Selected projects</h2>
+          <p>Organized so each project can grow into its own page without changing the site structure.</p>
+        </div>
+        <a href="projects/">Browse the project index</a>
+      </div>
+
+      <div class="grid">
+        <article class="panel card">
+          <div class="tags">
+            <span class="tag">iOS</span>
+            <span class="tag">TestFlight</span>
+          </div>
+          <h3>Bingo</h3>
+          <p>An app for scanning and managing bingo cards, with a release pipeline and public privacy policy.</p>
+          <div class="action-row">
+            <a class="button button-primary" href="projects/bingo/">Project page</a>
+            <a class="button button-secondary" href="projects/bingo/privacy-policy/">Policy</a>
+          </div>
+        </article>
+
+        <article class="panel card">
+          <div class="tags">
+            <span class="tag">Automation</span>
+            <span class="tag">Azure DevOps</span>
+          </div>
+          <h3>FormsPro Automation Framework</h3>
+          <p>Built and maintained a TypeScript, TestCafe, and Azure DevOps automation framework with PR-based validation.</p>
+        </article>
+
+        <article class="panel card">
+          <div class="tags">
+            <span class="tag">Bot</span>
+            <span class="tag">API</span>
+          </div>
+          <h3>MTG Card Twitter Bot</h3>
+          <p>A personal bot that posts random legal Magic: The Gathering cards via Scryfall and Twitter APIs.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <h2>About</h2>
+          <p>Current focus and what I care about most.</p>
+        </div>
+      </div>
+
+      <div class="panel card">
+        <ul class="list">
+          <li>Reduce friction in engineering workflows with automation that is easy to trust.</li>
+          <li>Keep CI/CD pipelines small, fast, and visible enough to debug quickly.</li>
+          <li>Build release processes that make app shipping boring in the best possible way.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
+          <h2>Contact</h2>
+          <p>Find me where I keep my work public.</p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <article class="panel card">
+          <div class="tags">
+            <span class="tag">Email</span>
+          </div>
+          <h3>christopher.cadiz.robinson@gmail.com</h3>
+          <p>The quickest way to reach me about work, projects, or collaboration.</p>
+        </article>
+
+        <article class="panel card">
+          <div class="tags">
+            <span class="tag">LinkedIn</span>
+          </div>
+          <h3>Christopher Robinson</h3>
+          <p>Professional profile and work history.</p>
+          <div class="action-row">
+            <a class="button button-secondary" href="https://www.linkedin.com/in/christopher-robinson-00036670">Open profile</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="footer">
+      Efficiency is the silent power of great engineering.
+    </div>
   </main>
 </body>
 </html>
