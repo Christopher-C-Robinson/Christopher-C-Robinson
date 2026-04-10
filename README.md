@@ -42,8 +42,11 @@ I enjoy building systems that reduce friction and let teams ship with confidence
   - Personal project that posts random legal Magic: The Gathering cards via Scryfall + Twitter APIs
   - Prevents duplicates until a full card cycle is completed
 
-- **Bingo Card Managing App (In Progress)**
-  - Building an app to help with the bottle neck of manually marking bingo cards.
+- **BingoFlow**
+  - iOS bingo card manager with TestFlight delivery
+  - [Project page](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/)
+  - [Support](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/support/)
+  - [Privacy policy](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/privacy-policy/)
 
 ---
 
@@ -58,7 +61,9 @@ I enjoy building systems that reduce friction and let teams ship with confidence
 
 - [Home](https://christopher-c-robinson.github.io/Christopher-C-Robinson/)
 - [Projects](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/)
-- [Bingo Privacy Policy](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingo/privacy-policy/)
+- [BingoFlow](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/)
+- [BingoFlow Support](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/support/)
+- [BingoFlow Privacy Policy](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/privacy-policy/)
 
 ---
 

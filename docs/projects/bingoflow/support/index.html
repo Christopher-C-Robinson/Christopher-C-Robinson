@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BingoFlow Support | Christopher Robinson</title>
+  <meta name="description" content="Support BingoFlow and open a prefilled GitHub issue.">
+  <link rel="stylesheet" href="../../../styles/site.css">
+</head>
+<body>
+  <header class="topbar shell">
+    <div class="brand">
+      <a href="../../../">Christopher Robinson</a>
+      <p>BingoFlow support and issue submission.</p>
+    </div>
+    <nav class="nav" aria-label="Primary">
+      <a href="../../../">Home</a>
+      <a href="../../">Projects</a>
+      <a href="../">BingoFlow</a>
+      <a href="../privacy-policy/">Privacy Policy</a>
+    </nav>
+  </header>
+
+  <main class="article">
+    <section class="article-head">
+      <div class="breadcrumb">
+        <a href="../../../">Home</a>
+        <span>/</span>
+        <a href="../../">Projects</a>
+        <span>/</span>
+        <a href="../">BingoFlow</a>
+        <span>/</span>
+        <span>Support</span>
+      </div>
+      <span class="eyebrow">Support</span>
+      <h1>Send a BingoFlow issue</h1>
+      <p>
+        Fill out the form below to open a prefilled GitHub issue in the Bingo repo. Include the device, what you
+        expected, and any screenshots that help show the problem.
+      </p>
+      <div class="action-row">
+        <a class="button button-primary" href="https://github.com/Christopher-C-Robinson-Organization/Bingo/issues">View issues</a>
+        <a class="button button-secondary" href="../">Back to BingoFlow</a>
+      </div>
+    </section>
+
+    <section class="support-layout">
+      <form
+        class="panel card support-form"
+        action="https://github.com/Christopher-C-Robinson-Organization/Bingo/issues/new"
+        method="get"
+        target="_blank"
+      >
+        <div class="field">
+          <label for="issue-title">Issue title</label>
+          <input
+            id="issue-title"
+            name="title"
+            type="text"
+            placeholder="Short summary"
+            autocomplete="off"
+            required
+          >
+        </div>
+
+        <div class="field">
+          <label for="issue-body">Details</label>
+          <textarea id="issue-body" name="body" rows="12" required>What happened?
+
+Steps to reproduce:
+
+Expected behavior:
+
+Device / OS:
+
+Screenshots or notes:
+</textarea>
+        </div>
+
+        <div class="action-row">
+          <button class="button button-primary" type="submit">Open GitHub issue</button>
+        </div>
+
+        <p class="small-note">
+          This opens GitHub with your summary and details prefilled. You will still confirm the final submission in
+          GitHub.
+        </p>
+      </form>
+
+      <aside class="panel card">
+        <span class="eyebrow">Before you send</span>
+        <h3>Helpful details</h3>
+        <ul class="list">
+          <li>App version and build number.</li>
+          <li>Device model and iOS version.</li>
+          <li>Whether the issue happened in Scan, Manual Entry, or Random.</li>
+          <li>Any screenshot or screen recording that shows the problem.</li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>

@@ -400,6 +400,60 @@ a:hover {
   border-radius: 14px;
 }
 
+.support-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(260px, 0.7fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.field label {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--text);
+  font: inherit;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72);
+}
+
+.field input::placeholder,
+.field textarea::placeholder {
+  color: rgba(89, 100, 113, 0.82);
+}
+
+.field input:focus,
+.field textarea:focus {
+  outline: 3px solid rgba(15, 118, 110, 0.18);
+  border-color: rgba(15, 118, 110, 0.36);
+}
+
+.field textarea {
+  min-height: 240px;
+  resize: vertical;
+}
+
+.small-note {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
 .footer {
   padding: 28px 0 48px;
   color: var(--muted);
@@ -437,5 +491,9 @@ a:hover {
 
   .hero h1 {
     max-width: none;
+  }
+
+  .support-layout {
+    grid-template-columns: 1fr;
   }
 }
