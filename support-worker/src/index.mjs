@@ -1,5 +1,6 @@
 const GITHUB_API_BASE = 'https://api.github.com';
 const GITHUB_API_VERSION = '2022-11-28';
+const GITHUB_USER_AGENT = 'BingoFlowSupportWorker/1.0';
 const DEFAULT_ALLOWED_ORIGINS = ['https://christopher-c-robinson.github.io'];
 const DEFAULT_SUPPORT_URL = 'https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/support/';
 const DEFAULT_RECEIPT_URL = 'https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/support/receipt/';
@@ -322,6 +323,7 @@ async function githubFetch(path, options = {}, env) {
   const headers = new Headers(options.headers || {});
   headers.set('Accept', 'application/vnd.github+json');
   headers.set('X-GitHub-Api-Version', GITHUB_API_VERSION);
+  headers.set('User-Agent', GITHUB_USER_AGENT);
   if (options.body !== undefined) {
     headers.set('Content-Type', 'application/json');
   }
