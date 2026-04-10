@@ -54,4 +54,12 @@ I enjoy building systems that reduce friction and let teams ship with confidence
 
 ---
 
+## 📄 Privacy Policy
+
+The public privacy policy for Bingo is available here:
+
+- [Bingo Privacy Policy](https://christopher-c-robinson.github.io/Christopher-C-Robinson/privacy-policy/)
+
+---
+
 > "Efficiency is the silent power of great engineering."
