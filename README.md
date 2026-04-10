@@ -43,7 +43,7 @@ I enjoy building systems that reduce friction and let teams ship with confidence
   - Prevents duplicates until a full card cycle is completed
 
 - **BingoFlow**
-  - iOS bingo card manager with TestFlight delivery
+  - iOS bingo card manager with TestFlight delivery and private support intake
   - [Project page](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/)
   - [Support](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/support/)
   - [Privacy policy](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/privacy-policy/)

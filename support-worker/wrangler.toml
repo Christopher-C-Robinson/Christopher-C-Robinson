@@ -1,0 +1,11 @@
+name = "bingoflow-support"
+main = "src/index.mjs"
+compatibility_date = "2026-04-10"
+workers_dev = true
+
+[vars]
+GITHUB_REPO_OWNER = "Christopher-C-Robinson-Organization"
+GITHUB_REPO_NAME = "Bingo"
+RECEIPT_URL = "https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/support/receipt/"
+ALLOWED_ORIGINS = "https://christopher-c-robinson.github.io,http://127.0.0.1:8787,http://localhost:8787"
+SUPPORT_LABELS = "support,bingoflow"

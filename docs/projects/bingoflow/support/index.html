@@ -4,14 +4,38 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BingoFlow Support | Christopher Robinson</title>
-  <meta name="description" content="Support BingoFlow and open a prefilled GitHub issue.">
+  <meta name="description" content="Send a private BingoFlow support request.">
   <link rel="stylesheet" href="../../../styles/site.css">
+  <script src="./config.js" defer></script>
+  <script defer>
+    window.addEventListener('DOMContentLoaded', () => {
+      const config = window.BINGOFLOW_SUPPORT_CONFIG || {};
+      const form = document.querySelector('[data-support-form]');
+      const button = document.querySelector('[data-support-submit]');
+      const notice = document.querySelector('[data-support-warning]');
+      const endpoint = typeof config.endpoint === 'string' ? config.endpoint.trim() : '';
+
+      if (endpoint && !endpoint.includes('YOUR-WORKER-SUBDOMAIN')) {
+        form.action = endpoint;
+        return;
+      }
+
+      if (notice) {
+        notice.hidden = false;
+      }
+
+      if (button) {
+        button.disabled = true;
+        button.textContent = 'Configure support backend';
+      }
+    });
+  </script>
 </head>
 <body>
   <header class="topbar shell">
     <div class="brand">
       <a href="../../../">Christopher Robinson</a>
-      <p>BingoFlow support and issue submission.</p>
+      <p>Private BingoFlow support intake.</p>
     </div>
     <nav class="nav" aria-label="Primary">
       <a href="../../../">Home</a>
@@ -33,23 +57,24 @@
         <span>Support</span>
       </div>
       <span class="eyebrow">Support</span>
-      <h1>Send a BingoFlow issue</h1>
+      <h1>Send a private support request</h1>
       <p>
-        Fill out the form below to open a prefilled GitHub issue in the Bingo repo. Include the device, what you
-        expected, and any screenshots that help show the problem.
+        Use this form for bug reports, feature requests, or account questions. Submissions go to a private tracker
+        in the private Bingo repo, not a public issue board.
       </p>
       <div class="action-row">
-        <a class="button button-primary" href="https://github.com/Christopher-C-Robinson-Organization/Bingo/issues">View issues</a>
-        <a class="button button-secondary" href="../">Back to BingoFlow</a>
+        <a class="button button-primary" href="../">Back to BingoFlow</a>
+        <a class="button button-secondary" href="../privacy-policy/">Read privacy policy</a>
       </div>
     </section>
 
     <section class="support-layout">
       <form
         class="panel card support-form"
-        action="https://github.com/Christopher-C-Robinson-Organization/Bingo/issues/new"
-        method="get"
-        target="_blank"
+        data-support-form
+        action="https://bingoflow-support.bingoflow-support.workers.dev/submit"
+        method="post"
+        autocomplete="off"
       >
         <div class="field">
           <label for="issue-title">Issue title</label>
@@ -58,32 +83,52 @@
             name="title"
             type="text"
             placeholder="Short summary"
-            autocomplete="off"
+            maxlength="120"
             required
           >
         </div>
 
         <div class="field">
           <label for="issue-body">Details</label>
-          <textarea id="issue-body" name="body" rows="12" required>What happened?
+          <textarea
+            id="issue-body"
+            name="details"
+            rows="12"
+            maxlength="8000"
+            placeholder="What happened? Include your device, app version, steps to reproduce, and any screenshots or notes."
+            required
+          ></textarea>
+        </div>
 
-Steps to reproduce:
+        <div class="field">
+          <label for="support-email">Email (optional)</label>
+          <input
+            id="support-email"
+            name="email"
+            type="email"
+            placeholder="name@example.com"
+            autocomplete="email"
+          >
+          <p class="small-note">Only used if we need to follow up on this request.</p>
+        </div>
 
-Expected behavior:
-
-Device / OS:
-
-Screenshots or notes:
-</textarea>
+        <div class="visually-hidden" aria-hidden="true">
+          <label for="support-website">Website</label>
+          <input id="support-website" name="website" type="text" tabindex="-1" autocomplete="off">
         </div>
 
         <div class="action-row">
-          <button class="button button-primary" type="submit">Open GitHub issue</button>
+          <button class="button button-primary" type="submit" data-support-submit>Send private support request</button>
         </div>
 
         <p class="small-note">
-          This opens GitHub with your summary and details prefilled. You will still confirm the final submission in
-          GitHub.
+          After submission, a private issue is created in the Bingo repo and you are redirected to a public receipt
+          page.
+        </p>
+
+        <p class="note" data-support-warning hidden>
+          The support backend is not configured yet. Update the worker URL in
+          <code>./config.js</code> before publishing.
         </p>
       </form>
 
@@ -91,11 +136,15 @@ Screenshots or notes:
         <span class="eyebrow">Before you send</span>
         <h3>Helpful details</h3>
         <ul class="list">
+          <li>What you were doing when the issue happened.</li>
           <li>App version and build number.</li>
           <li>Device model and iOS version.</li>
-          <li>Whether the issue happened in Scan, Manual Entry, or Random.</li>
+          <li>Whether the issue happened in Scan, Manual Entry, Random, or pattern selection.</li>
           <li>Any screenshot or screen recording that shows the problem.</li>
         </ul>
+        <p class="small-note">
+          Requests stay private. If you include an email address, it is used only for follow-up on that request.
+        </p>
       </aside>
     </section>
   </main>

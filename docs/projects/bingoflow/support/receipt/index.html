@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BingoFlow Support Receipt | Christopher Robinson</title>
+  <meta name="description" content="Confirmation page for BingoFlow support submissions.">
+  <link rel="stylesheet" href="../../../../styles/site.css">
+</head>
+<body>
+  <header class="topbar shell">
+    <div class="brand">
+      <a href="../../../../">Christopher Robinson</a>
+      <p>BingoFlow support receipt.</p>
+    </div>
+    <nav class="nav" aria-label="Primary">
+      <a href="../../../../">Home</a>
+      <a href="../../../">Projects</a>
+      <a href="../../">BingoFlow</a>
+      <a href="../../privacy-policy/">Privacy Policy</a>
+    </nav>
+  </header>
+
+  <main class="article">
+    <section class="article-head">
+      <div class="breadcrumb">
+        <a href="../../../../">Home</a>
+        <span>/</span>
+        <a href="../../../">Projects</a>
+        <span>/</span>
+        <a href="../../">BingoFlow</a>
+        <span>/</span>
+        <a href="../">Support</a>
+        <span>/</span>
+        <span>Receipt</span>
+      </div>
+      <span class="eyebrow">Received</span>
+      <h1>Support request received</h1>
+      <p>
+        Thanks. Your request was submitted to the private BingoFlow support tracker.
+      </p>
+      <div class="action-row">
+        <a class="button button-primary" href="../">Back to support</a>
+        <a class="button button-secondary" href="../../">Back to BingoFlow</a>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Reference</h2>
+      <ul class="list">
+        <li>Private issue: <strong id="support-ticket">Pending</strong></li>
+        <li>Submission ID: <strong id="support-request">Pending</strong></li>
+        <li>Subject: <strong id="support-subject">Pending</strong></li>
+      </ul>
+      <div class="note" style="margin-top: 18px;">
+        If you included an email address, that is the only way we will follow up on this request.
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const ticket = params.get('ticket');
+    const requestId = params.get('request');
+    const subject = params.get('title');
+
+    document.getElementById('support-ticket').textContent = ticket ? `#${ticket}` : 'Created';
+    document.getElementById('support-request').textContent = requestId || 'Not provided';
+    document.getElementById('support-subject').textContent = subject || 'Not provided';
+  </script>
+</body>
+</html>
