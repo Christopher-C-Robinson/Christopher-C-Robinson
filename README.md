@@ -31,6 +31,29 @@ I enjoy building systems that reduce friction and let teams ship with confidence
 
 ## 🚀 Projects
 
+- **BingoFlow**
+  - iOS bingo card manager with TestFlight delivery and private support intake
+  - [Project page](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/)
+  - [Support](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/support/)
+  - [Privacy policy](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/privacy-policy/)
+
+- **Macro**
+  - Desktop macro tool for Windows, Linux, and macOS (Tauri): human-like mouse and keyboard playback, image targets, and a failsafe stop
+  - Public download site. The source repository is private and is not linked here
+  - [Project page](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/macro/)
+  - [Download](https://christopher-c-robinson-organization.github.io/Macro/)
+
+- **Robinhood bot**
+  - Personal Robinhood crypto automation. It uses the official Crypto Trading API and stays read-only unless live orders are explicitly enabled
+  - Public summary only. The source repository is private and is not linked here
+  - [Project page](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/robinhood/)
+
+- **College Football Index**
+  - Neutral FBS and FCS college football team analysis, with conference filters and schedule-adjusted ratings
+  - [Live site](https://christopher-c-robinson.github.io/college-football-index/)
+  - [Source](https://github.com/Christopher-C-Robinson/college-football-index)
+  - [Project page](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/college-football-index/)
+
 - **FormsPro Automation Framework**
   - Built and maintained an end-to-end automation framework with TypeScript, TestCafe, and Azure DevOps
   - Reduced nightly runtime by 75%
@@ -40,12 +63,6 @@ I enjoy building systems that reduce friction and let teams ship with confidence
 - **MTG Card Twitter Bot**
   - Personal project that posts random legal Magic: The Gathering cards via Scryfall + Twitter APIs
   - Prevents duplicates until a full card cycle is completed
-
-- **BingoFlow**
-  - iOS bingo card manager with TestFlight delivery and private support intake
-  - [Project page](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/)
-  - [Support](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/support/)
-  - [Privacy policy](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/privacy-policy/)
 
 ---
 
@@ -63,6 +80,11 @@ I enjoy building systems that reduce friction and let teams ship with confidence
 - [BingoFlow](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/)
 - [BingoFlow Support](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/support/)
 - [BingoFlow Privacy Policy](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/bingoflow/privacy-policy/)
+- [Macro](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/macro/)
+- [Macro downloads](https://christopher-c-robinson-organization.github.io/Macro/)
+- [Robinhood bot](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/robinhood/)
+- [College Football Index](https://christopher-c-robinson.github.io/Christopher-C-Robinson/projects/college-football-index/)
+- [College Football Index live site](https://christopher-c-robinson.github.io/college-football-index/)
 
 ---
 

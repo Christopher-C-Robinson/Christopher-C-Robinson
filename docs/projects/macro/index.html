@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Macro | Christopher Robinson</title>
+  <meta name="description" content="Macro is a desktop app for human-like mouse and keyboard automation on Windows, Linux, and macOS.">
+  <link rel="stylesheet" href="../../styles/site.css">
+</head>
+<body>
+  <header class="topbar shell">
+    <div class="brand">
+      <a href="../../">Christopher Robinson</a>
+      <p>Macro project page and public downloads.</p>
+    </div>
+    <nav class="nav" aria-label="Primary">
+      <a href="../../">Home</a>
+      <a href="../">Projects</a>
+      <a href="https://christopher-c-robinson-organization.github.io/Macro/">Download</a>
+    </nav>
+  </header>
+
+  <main class="article">
+    <section class="article-head">
+      <div class="breadcrumb">
+        <a href="../../">Home</a>
+        <span>/</span>
+        <a href="../">Projects</a>
+        <span>/</span>
+        <span>Macro</span>
+      </div>
+      <span class="eyebrow">Project</span>
+      <h1>Macro</h1>
+      <p>
+        Macro is a desktop app for recording your own clicks and keystrokes and playing them back.
+        It runs on Windows, Linux, and macOS, and it is built with Tauri. Playback uses human-like
+        pointer movement, can find a click from a picture of its target, and stops on a failsafe shortcut.
+      </p>
+      <div class="action-row">
+        <a class="button button-primary" href="https://christopher-c-robinson-organization.github.io/Macro/">Open download site</a>
+        <a class="button button-secondary" href="../">Back to projects</a>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>What it does</h2>
+      <ul class="list">
+        <li>Record clicks and key presses, then play them back on a clock.</li>
+        <li>Find a click from a picture of the screen, so a moved window can still receive it.</li>
+        <li>Stop playback from the Stop button or Ctrl+Shift+Escape, and release the mouse.</li>
+        <li>Keep each macro as a local file. Nothing in a macro is uploaded.</li>
+      </ul>
+      <h2>If macOS says the app is damaged</h2>
+      <p>Clear the quarantine flag, then open Macro again:</p>
+      <pre><code>xattr -dr com.apple.quarantine /Applications/Macro.app</code></pre>
+      <h2>Linux install</h2>
+      <p>Install the Debian package, or run the AppImage:</p>
+      <pre><code>sudo apt install ./Macro_*_amd64.deb</code></pre>
+      <pre><code>chmod +x Macro_*.AppImage
+./Macro_*.AppImage</code></pre>
+      <div class="note" style="margin-top: 18px;">
+        Installers for Apple silicon, Intel, Windows, and Linux are on the public download site.
+        The source repository is private, so this page does not link to it.
+      </div>
+    </section>
+  </main>
+</body>
+</html>
